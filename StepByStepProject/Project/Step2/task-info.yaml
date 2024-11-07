@@ -1,0 +1,25 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 21
+        length: 179
+        placeholder_text: "# TODO copy the function `load_the_data()` and filename from\
+      \ Step1"
+      - offset: 261
+        length: 47
+        placeholder_text: "# TODO Select and return only the following columns from the\
+      \ dataset: name, platform, and genre"
+      - offset: 476
+        length: 33
+        placeholder_text: "# TODO verify that the data has been filtered correctly"
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

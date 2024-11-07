@@ -1,0 +1,13 @@
+type: marketplace
+title: Bar Chart creation project
+language: English
+summary: This course will teach you basic knowledge in working with pandas and matplotlib
+  library. In the end you can create your own project step by step.
+vendor:
+  name: Kamalia Alisheva
+programming_language: Python
+environment: unittest
+content:
+  - Introduction
+  - Preparation
+  - StepByStepProject

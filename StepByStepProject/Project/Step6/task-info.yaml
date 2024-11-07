@@ -1,0 +1,21 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 72
+        length: 950
+        placeholder_text: "# TODO Copy 5 functions and filename from step 5"
+      - offset: 1106
+        length: 250
+        placeholder_text: "# TODO Calculate the positions for each bar based on the number\
+      \ of genres"
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

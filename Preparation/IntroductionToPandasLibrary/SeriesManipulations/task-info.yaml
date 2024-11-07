@@ -1,0 +1,25 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 60
+        length: 69
+        placeholder_text: "# TODO Create Series with elements from the list with indecies\
+      \ from indecies Slice the Series from 'b' to 'e' Return the Series"
+      - offset: 164
+        length: 15
+        placeholder_text: "# TODO Return the Series where you multiplied each value by\
+      \ 2"
+      - offset: 212
+        length: 24
+        placeholder_text: "# TODO Filter out the values greater than 50"
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

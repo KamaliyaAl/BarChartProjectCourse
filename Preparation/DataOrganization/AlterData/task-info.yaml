@@ -1,0 +1,26 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 224
+        length: 82
+        placeholder_text: "# TODO Rename the 'Name' column to 'Employee Name' and the\
+      \ 'Salary' column to 'Annual Salary'. Return the updated DataFrame."
+      - offset: 337
+        length: 46
+        placeholder_text: "# TODO  Remove any rows where 'Annual Salary' is missing (NaN)\
+      \ and return the cleaned DataFrame."
+      - offset: 413
+        length: 67
+        placeholder_text: "# TODO Return a new DataFrame with 'Age' and the mean 'Annual\
+      \ Salary'."
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

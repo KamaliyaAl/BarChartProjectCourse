@@ -1,0 +1,26 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 248
+        length: 60
+        placeholder_text: "# TODO Sort the DataFrame by 'Stock' and 'Price' in ascending\
+      \ order and return the sorted DataFrame."
+      - offset: 349
+        length: 53
+        placeholder_text: "# TODO Return a filtered DataFrame where 'Stock' is greater\
+      \ than 100 and 'Price' is less than 1000."
+      - offset: 440
+        length: 58
+        placeholder_text: "# TODO Filter the DataFrame to return only rows where the 'Product'\
+      \ name contains 'phone' (case-insensitive)"
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

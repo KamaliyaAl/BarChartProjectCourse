@@ -1,0 +1,11 @@
+type: ide
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 0
+        length: 31
+        placeholder_text: "# TODO import library"
+  - name: __init__.py
+    visible: false
+    propagatable: false

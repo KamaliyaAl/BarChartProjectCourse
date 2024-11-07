@@ -1,0 +1,26 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 55
+        length: 41
+        placeholder_text: "# TODO read the CSV file using Pandas, and return the DataFrame"
+      - offset: 135
+        length: 17
+        placeholder_text: "# TODO Return the first n rows of the DataFrame."
+      - offset: 187
+        length: 46
+        placeholder_text: "# TODO Remove any rows with missing values and return the cleaned\
+      \ DataFrame."
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false
+  - name: employees.csv
+    visible: true

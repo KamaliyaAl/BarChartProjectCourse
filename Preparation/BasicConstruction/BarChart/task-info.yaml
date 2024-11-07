@@ -1,0 +1,24 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 234
+        length: 193
+        placeholder_text: "# TODO create a bar chart with the specified width and color"
+      - offset: 482
+        length: 62
+        placeholder_text: "# TODO Add labels for the X-axis, Y-axis, and a title for the\
+      \ chart"
+      - offset: 568
+        length: 10
+        placeholder_text: "# TODO display the chart"
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

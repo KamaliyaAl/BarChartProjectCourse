@@ -1,0 +1,23 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 76
+        length: 26
+        placeholder_text: "# TODO Read the CSV file and return the result as a DataFrame"
+      - offset: 118
+        length: 6
+        placeholder_text: "# TODO Specify the whole path to the filename (dataset.csv)"
+      - offset: 231
+        length: 16
+        placeholder_text: "# TODO use the method df.head() to view the first few rows"
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

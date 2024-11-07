@@ -1,0 +1,23 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 202
+        length: 25
+        placeholder_text: "# TODO Return a Pandas DataFrame created from this data"
+      - offset: 266
+        length: 18
+        placeholder_text: "# TODO Return a DataFrame containing only the specified columns"
+      - offset: 311
+        length: 57
+        placeholder_text: "# TODO Return the updated DataFrame with 'Total Value'"
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

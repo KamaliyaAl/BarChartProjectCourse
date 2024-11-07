@@ -1,0 +1,21 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 21
+        length: 252
+        placeholder_text: "# TODO Copy 2 previous functions and filename from step 2"
+      - offset: 316
+        length: 218
+        placeholder_text: "# TODO filter the dataset to include only the following platforms:\
+      \ PS4, XOne, PC, and WiiU"
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

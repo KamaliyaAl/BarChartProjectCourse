@@ -1,0 +1,21 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 73
+        length: 1776
+        placeholder_text: "# TODO Copy 7 functions and filename from step 7"
+      - offset: 1878
+        length: 388
+        placeholder_text: "# TODO encapsulate all the previous steps required to prepare\
+      \ and display the bar chart"
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

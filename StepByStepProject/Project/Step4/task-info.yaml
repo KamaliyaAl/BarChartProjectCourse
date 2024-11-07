@@ -1,0 +1,20 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 21
+        length: 530
+        placeholder_text: "# TODO Copy the 3 functions and filename from the step 3"
+      - offset: 585
+        length: 93
+        placeholder_text: "# TODO Group the DataFrame by platform and genre"
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false
