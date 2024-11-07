@@ -19,7 +19,7 @@ At the end of the course, you will have built a **bar chart** using Matplotlib a
 ## Installation
 Clone this repository and install the required libraries:
 ```bash
-git clone <repository-url>
+git clone https://github.com/KamaliyaAl/BarChartProjectCourse.git
 pip install matplotlib pandas
 ```
 
